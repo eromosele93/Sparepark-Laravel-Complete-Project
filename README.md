@@ -16,3 +16,20 @@ Automated confirmation emails are sent to both the user and the parking space ow
 
 🎨 Responsive UI:
 Designed with Tailwind CSS, ensuring a clean, modern, and mobile-friendly interface.
+
+Live Demo
+www.sparepark.rf.gd
+
+Tech Stack
+Laravel, vue, MySQL, Tailwind CSS, Stripe API, Google Map API
+
+Installation Instructons.
+Clone Project 
+cd project
+composer install
+npm install
+npm run build
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
